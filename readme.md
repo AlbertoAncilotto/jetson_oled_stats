@@ -11,8 +11,9 @@ luma.oled Python library
 To install and run the jetson_ip_temp_display script at startup:
 
 Clone this repository to your Jetson board.
-Copy
-git clone https://github.com/your-username/jetson-ip-temp-display.git
+```
+git clone https://github.com/AlbertoAncilotto/jetson_oled_stats
+```
 Run the install.sh script as root to add a cron job that automatically starts the display after one minute from startup.
 ```
 chmod +x install.sh
